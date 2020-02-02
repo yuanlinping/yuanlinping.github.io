@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>**Linping Yuan**</title>
+      <link>/authors/linping-yuan/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/linping-yuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aoyu Wu</title>
+      <link>/authors/aoyu-wu/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/aoyu-wu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huamin Qu</title>
+      <link>/authors/huamin-qu/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/huamin-qu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siwei Fu</title>
+      <link>/authors/siwei-fu/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/siwei-fu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yuanzhe Chen</title>
+      <link>/authors/yuanzhe-chen/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/yuanzhe-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Linping YUAN (袁林萍) is currently a Ph.D. student in 
+&lt;a href=&#34;http://vis.cse.ust.hk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HKUST VisLab&lt;/a&gt;
+, at the Department of Computer Science and Engineering, 
+&lt;a href=&#34;https://www.ust.hk/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hong Kong University of Science and Technology&lt;/a&gt;
+, under the supervision of 
+&lt;a href=&#34;http://huamin.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Huamin Qu&lt;/a&gt;
+. Before that, she obtained her B.Eng. degree from 
+&lt;a href=&#34;http://www.xjtu.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xi&amp;rsquo;an Jiaotong University&lt;/a&gt;
+ majoring in Software Engineering in 2019.&lt;/p&gt;
+&lt;p&gt;Her research interests mainly lie in automatic visualization generation and recommendation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
