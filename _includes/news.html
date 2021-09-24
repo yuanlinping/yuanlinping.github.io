@@ -1,0 +1,8 @@
+<tr>
+  <td class="date">
+    <time datetime="{{ news.date }}">{{ news.date | date: "%b %Y" }}</time>
+  </td>
+  <td>
+    {{ news.message | markdownify | remove: '<p>' | remove: '</p>' }}
+  </td>
+</tr>

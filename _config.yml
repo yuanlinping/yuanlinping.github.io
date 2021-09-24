@@ -1,0 +1,37 @@
+# Site settings
+title: Linping YUAN
+description: > # this means to ignore newlines until "baseurl:"
+   A Ph.D. Candidate at Hong Kong University of Science and Technology (HKUST). I work on augmented reality, virtual reality, data visualization, and human-computer interaction.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.domoritz.de" # the base hostname & protocol for your site
+production_url: "https://www.domoritz.de"
+permalink: /blog/:year/:month/:title.html
+
+# find me
+email: lyuanaa@connect.ust.hk
+github_username: yuanlinping
+github_url: https://github.com/yuanlinping
+google_scholar_url: https://scholar.google.com/citations?user=xp3QhPkAAAAJ&hl=en
+
+
+
+  
+
+# twitter:
+#   username: domoritz
+
+sass:
+  style: compressed
+
+collections:
+  publications:
+    output: false
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-mentions
