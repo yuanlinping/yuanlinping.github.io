@@ -6,57 +6,24 @@ title: CV
 
 <section class="container">
 
-<h1><a href="{{ absolute_url }}/">Dominik Moritz</a></h1>
+<h1><a href="{{ absolute_url }}/">Linping YUAN 袁林萍</a></h1>
 
-<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">www.domoritz.de/cv</a>.</small>
+<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">www.yuanlinping.top/cv</a>.</small>
 
 <div class="header-columns">
   <div>
+    <p style="margin-bottom:0;">Postgraduate</p>
     <p>
-      Professor at CMU HCII and Research Scientist at Apple<br/>
+      Address: Room 3007. CYT Building. HKUST. Clear Water Bay. Kowloon. Hong Kong.
     </p>
   </div>
   <div>
     <p class="right-align">
-      <a href="{{ absolute_url }}/">https://www.domoritz.de</a><br/>
-      <a href="mailto:domoritz@cmu.edu">domoritz@cmu.edu</a><br/>
-      <a href="https://twitter.com/domoritz">@domoritz</a>
+      <a href="{{ absolute_url }}/">yuanlinping.top</a><br/>
+      <a href="mailto:lyuanaa@connect.ust.hk">lyuanaa@connect.ust.hk</a><br/>
     </p>
   </div>
 </div>
-
-
-<h2>Research Area</h2>
-
-<p>
-To enhance people's ability to understand and communicate large and complex data, I develop methods that richly integrate the capabilities of both people and machines. I combine methods from <strong>visualization</strong>, <strong>data management</strong>, <strong>programming languages</strong>, and <strong>human-computer interaction</strong> to enable effective methods for data analysis and communication. My systems have won awards at premier academic venues, and are used by journalists, data enthusiasts, developers, educators, and the data science community.
-</p>
-
-
-<h2>Positions</h2>
-
-{% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
-{% for pos in filtered_positions %}
-<article>
-  <div class="date-container">
-    <span class="date">{{ pos.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{ pos.title }}{% if pos.company %} at {{pos.company}}{% endif %}</strong>
-    <span class="right">{{ pos.location }}</span>
-  </div>
-  <!-- <p>
-    {% if pos.mentors %}
-      Mentor{% if pos.mentors.size > 1 %}s{% endif %}: {% for mentor in pos.mentors %}
-        {% include person person=mentor %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}<br/>
-    {% endif %}
-    {{ pos.description | markdownify | remove: '<p>' | remove: '</p>' }}
-    {% if pos.skills %}
-    <small class="muted">[{% for skill in pos.skills %}{{ skill }}{% unless forloop.last %}, {% endunless %}{% endfor %}]</small>
-    {% endif %}
-  </p> -->
-</article>
-{% endfor %}
-
 
 <h2>Education</h2>
 
@@ -76,27 +43,12 @@ To enhance people's ability to understand and communicate large and complex data
 {% endfor %}
 
 
-<h2>Notable Awards</h2>
-
-{% for award in site.data.awards %}
-<article>
-  <div class="date-container">
-    <span class="date">{{ award.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{ award.name }}</strong>
-    <span class="right">{{ award.sponsor }}</span>
-  </div>
-  <p class="muted">
-    {{ award.description }}
-  </p>
-</article>
-{% endfor %}
-
-
 <h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
 
 {% assign sorted_pubs = site.publications | reverse %}
 
-{% assign types = "Conference|Journal|Book Chapter|Demo|Workshop|Thesis" | split: "|" %}
+<!-- {% assign types = "Conference|Journal|Book Chapter|Demo|Workshop|Thesis" | split: "|" %} -->
+{% assign types = "Conference|Journal" | split: "|" %}
 {% for type in types %}
   {% assign counter = 1 %}
   {% for pub in sorted_pubs %}
@@ -142,12 +94,12 @@ To enhance people's ability to understand and communicate large and complex data
               </a>
             {% endif %}
             {% if pub.doi %}
-              <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
-                <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+              <a target="_blank" href="https://doi.org/{{ pub.doi }}">
+                <i class="fas fa-book" aria-hidden="true"></i> DOI
               </a>
             {% elsif pub.arxiv %}
-              <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
-                <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+              <a href="https://arxiv.org/abs/{{ pub.arxiv }}">
+                <i class="fas fa-archive" aria-hidden="true"></i> arXiv
               </a>
             {% endif %}
             </div>
@@ -159,7 +111,6 @@ To enhance people's ability to understand and communicate large and complex data
     {% endif %}
   {% endfor %}
 {% endfor %}
-
 
 <h2>Patents</h2>
 
@@ -177,8 +128,50 @@ To enhance people's ability to understand and communicate large and complex data
   </div>
 {% endfor %}
 
+<h2>Intern Experiences</h2>
 
-<h2>Mentoring</h2>
+{% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
+{% for pos in filtered_positions %}
+<article>
+  <div class="date-container">
+    <span class="date">{{ pos.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ pos.title }}{% if pos.company %} at {{pos.company}}{% endif %}</strong>
+    <span class="right">{{ pos.location }}</span>
+  </div>
+  <p>
+    {% if pos.mentors %}
+      Mentor{% if pos.mentors.size > 1 %}s{% endif %}: {% for mentor in pos.mentors %}
+      {{ mentor.title }} {% include person.html person=mentor.name %}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}<br/>
+    {% endif %}
+    {{ pos.description | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% if pos.skills %}
+    <small class="muted">[{% for skill in pos.skills %}{{ skill }}{% unless forloop.last %}, {% endunless %}{% endfor %}]</small>
+    {% endif %}
+  </p>
+</article>
+{% endfor %}
+
+
+
+
+<h2>Awards</h2>
+
+{% for award in site.data.awards %}
+<article>
+  <div class="date-container">
+    <span class="date">{{ award.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ award.name }}</strong>
+    <span class="right">{{ award.sponsor }}</span>
+  </div>
+  <p class="muted">
+    {{ award.description }}
+  </p>
+</article>
+{% endfor %}
+
+
+<!-- <h2>Mentoring</h2>
 
 {% assign filtered_mentoring = site.data.mentoring | where_exp:'item','item.hidden == null' %}
 {% for mentor in filtered_mentoring %}
@@ -200,10 +193,10 @@ To enhance people's ability to understand and communicate large and complex data
       </ul>
     {% endif %}
   </p>
-{% endfor %}
+{% endfor %} -->
 
 
-<h2>Talks  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
+<h2>Talks</h2>
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
@@ -214,7 +207,6 @@ To enhance people's ability to understand and communicate large and complex data
     <div class="date-container">
       <time datetime="{{ talk.date }}">{{ talk.date | date: "%b %Y" }}</time>
       <span class="fill">{{ talk.location }}{% if talk.city %}, <small class="muted">{{ talk.city }}</small>{% endif %}</span>
-
     </div>
   {% endfor %}
 </article>
@@ -246,68 +238,18 @@ To enhance people's ability to understand and communicate large and complex data
 
 <h2>Service</h2>
 
-<p>
-  Reviewer for ACM CHI, IEEE VIS, TVCG, EuroVis, PacificVis, Computers & Graphics, HILDA, and DSIA.
-  Program committee for <a href="http://hilda.io/2018/">HILDA 2018</a>, <a href="http://hilda.io/2019/">HILDA 2019</a>, and <a href="http://hilda.io/2020/">HILDA 2020</a> at SIGMOD.
-  Organizer of <a href="https://www.interactive-analysis.org/year/2018/">DSIA 2018</a> and <a href="https://www.interactive-analysis.org/">DSIA 2019</a> at VIS.
-  Session chair at CHI 2019, VIS 2019, VIS 2020. Program committee at VIS 2020 and 2021. 
-  <!-- <br/>
-  Member of the <a href="https://frictionlessdata.io/">Frictionless Data</a> working group that aims to submit a specification to the <a href="https://www.ietf.org/">IETF</a>. -->
-</p>
-
-
-<!-- <h2>Relevant Coursework</h2>
-
-{% for institution in site.data.courses %}
-<article>
-  <h3>{{ institution.title }}</h3>
-  <div>
-    <ul>
-      {% for course in institution.courses %}<li>{{ course.title }}{% if course.with %}<span class="muted"> ({% include person person=course.with %})</span>{% endif %}</li>{% endfor %}
-    </ul>
-  </div>
-</article>
-{% endfor %} -->
-
-
-<h2>References</h2>
-
-<div class="refs">
-  <p>
-    <strong>Jeffrey Heer</strong><br/>
-    Professor of Computer Science & Engineering<br/>
-    <i>University of Washington</i><br/>
-    <a href="https://homes.cs.washington.edu/~jheer/">homes.cs.washington.edu/~jheer/</a>
-  </p>
-
-  <p>
-    <strong>Bill Howe</strong><br/>
-    Professor at the Information School<br/>
-    <i>University of Washington</i><br/>
-    <a href="https://faculty.washington.edu/billhowe/">faculty.washington.edu/billhowe/</a>
-  </p>
-
-  <p>
-    <strong>Danyel Fisher</strong><br/>
-    Principal Design Researcher<br/>
-    <i>Honeycomb</i><br/>
-    Former Senior Researcher at Microsoft Research<br/>
-    <a href="https://danyelfisher.info/">danyelfisher.info/</a>
-  </p>
-
-  <p>
-    <strong>Tim Kraska</strong><br/>
-    Professor of Electrical Engineering & Computer Science<br/>
-    <i>Massachusetts Institute of Technology</i><br/>
-    <a href="https://people.csail.mit.edu/kraska/">people.csail.mit.edu/kraska/</a>
-  </p>
-
-  <p>
-    <strong>Steven Franconeri</strong><br/>
-    Professor of Psychology<br/>
-    <i>Northwestern University</i><br/>
-    <a href="https://psychology.northwestern.edu/people/faculty/core/profiles/steven-franconeri.html">psychology.northwestern.edu/people/faculty/core/profiles/steven-franconeri.html</a>
-  </p>
-</div>
-
+<table>
+  <tbody>
+  {% for service in site.data.service %}
+    <tr>
+      <td style="padding-right: 1em" >
+        <strong class="fill">{{ service.position }}</strong>
+      </td>
+      <td>
+        {{ service.at}}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 </section>
