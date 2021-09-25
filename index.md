@@ -39,9 +39,9 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 </div>
 </div>
 
-<div class="news" markdown="1">
 ## Latest News
 
+<div class="news" markdown="1">
 <table>
 <tbody>
 {% for news in site.data.news limit:10 %}
