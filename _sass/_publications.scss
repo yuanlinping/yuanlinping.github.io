@@ -114,14 +114,16 @@
     color: $grey-color;
   }
 
-  h1, h2, h4, h5, h6 {
+  h1, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   h2 {
-    // font-size: 1.5em;
-    border-bottom: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
+
   .author_me {
     font-weight: $base-font-weight;
   }
