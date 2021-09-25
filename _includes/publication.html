@@ -39,31 +39,46 @@
     </div>
   {% endif %}
 
-  {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
+  {% if pub.project_link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
     <div class="extra-links">
+    {% if pub.doi %}
+      <a target="_blank" href="https://doi.org/{{ pub.doi }}">
+          <i class="fas fa-book" aria-hidden="true"></i> DOI
+      </a>
+    {% endif %}
     {% if pub.pdf %}
       <a href="{{ pub.pdf }}">
         <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
       </a>
     {% endif %}
-    {% if pub.link %}
-      <a href="{{ pub.link }}">
-        <i class="fas fa-link" aria-hidden="true"></i> Project
+    {% if pub.appendix %}
+    <a href="{{ pub.apendix }}">
+      <i class="far fa-file-pdf" aria-hidden="true"></i> Apendix
+    </a>
+    {% endif %}
+    {% if pub.project_link %}
+      <a href="{{ pub.project_link }}">
+        <i class="fas fa-link" aria-hidden="true"></i> Project Page
       </a>
     {% endif %}
+    {% if pub.code %}
+    <a href="{{ pub.code }}">
+      <i class="fab fa-github" aria-hidden="true"></i> Code
+    </a>
+   {% endif %}
     {% if pub.blog %}
       <a href="{{ pub.blog }}">
         <i class="fas fa-newspaper" aria-hidden="true"></i> Article
       </a>
     {% endif %}
-    {% if pub.video %}
-      <a href="{{ pub.video }}">
-        <i class="fas fa-film" aria-hidden="true"></i> Video
+    {% if pub.demo %}
+      <a href="{{ pub.demo }}">
+        <i class="fas fa-film" aria-hidden="true"></i> Demo
       </a>
     {% endif %}
-    {% if pub.recording %}
-      <a href="{{ pub.recording }}">
-        <i class="fas fa-video" aria-hidden="true"></i> Recording
+    {% if pub.talk %}
+      <a href="{{ pub.talk }}">
+        <i class="fas fa-video" aria-hidden="true"></i> Talk
       </a>
     {% endif %}
     {% if pub.slides %}
@@ -71,7 +86,7 @@
         <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
       </a>
     {% endif %}
-    {% if pub.doi %}
+    <!-- {% if pub.doi %}
       <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
         <i class="fas fa-book" aria-hidden="true"></i> Bibtex
       </a>
@@ -79,15 +94,15 @@
       <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
         <i class="fas fa-book" aria-hidden="true"></i> Bibtex
       </a>
+    {% endif %} -->
+    {% if pub.arxiv %}
+    <a href="https://arxiv.org/abs/{{ pub.arxiv }}">
+      <i class="fas fa-archive" aria-hidden="true"></i> arXiv
+    </a>
     {% endif %}
     {% if pub.short_doi %}
       <a href="http://doi.org/{{ pub.short_doi }}">
         <i class="fas fa-anchor" aria-hidden="true"></i> DOI: {{ pub.short_doi }}
-      </a>
-    {% endif %}
-    {% if pub.arxiv %}
-      <a href="https://arxiv.org/abs/{{ pub.arxiv }}">
-        <i class="fas fa-archive" aria-hidden="true"></i> arXiv: {{ pub.arxiv }}
       </a>
     {% endif %}
     {% if pub.osf %}
