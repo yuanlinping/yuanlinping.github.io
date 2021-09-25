@@ -69,21 +69,18 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 
 ## Featured Publications
 
-<!-- <div class="featured-publications">
+<!-- style 1: with border -->
+<div class="pubs">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
   {% for pub in sorted_publications %}
-    {% if pub.highlight %}
-      <a href="{{ pub.pdf }}" class="publication">
-        <strong>{{ pub.title }}</strong>
-        <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
-        <i>{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}</i>.
-        {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
-      </a>
+    {% if pub.highlight%}
+      {% include publication.html pub=pub %}
     {% endif %}
   {% endfor %}
-</div> -->
+</div>
 
-<div class="featured-publications">
+<!-- style 2: simple; don't delete-->
+<!-- <div class="featured-publications">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
   {% for pub in sorted_publications %}
     {% if pub.highlight%}
@@ -110,7 +107,8 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
       </div>
     {% endif %}
   {% endfor %}
-</div>
+</div> -->
+
 
 <a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
