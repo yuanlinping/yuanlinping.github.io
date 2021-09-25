@@ -1,26 +1,8 @@
-- message: "::clap:: At Apple, we released [Audio Graphs](https://developer.apple.com/videos/play/wwdc2021/10122/)."
-  date: 2021-06-08
-- message: "My dissertation won the IEEE VGTC Outstanding Dissertation Award."
-  date: 2020-10-27
-- message: "Starting faculty position at CMU HCII."
-  date: 2020-09-01
-- message: "Adam and I founded the [Data Interaction Group at CMU](https://dig.cmu.edu/)."
-  date: 2019-11-11
-- message: "I started working at Apple."
-  date: 2019-09-23
-- message: "I submitted my dissertation."
-  date: 2019-09-06
-- message: "I passed my final exam (thesis defense)."
-  date: 2019-06-12
-- message: "I passed my general exam and am now a PhD candidate."
-  date: 2018-08-22
-- message: "[Draco](https://uwdata.github.io/draco/) receives the best paper award at InfoVis 2018."
-  date: 2018-07-21
-- message: "I am organizing the [DSIA Workshop](https://www.interactive-analysis.org) at VIS 2018 in Berlin."
-  date: 2018-04-09
-- message: "Vega-Lite is featured by [Nature](https://www.nature.com/articles/d41586-018-01322-9?utm_source=twt_nnc&utm_medium=social&utm_campaign=naturenews&sf180719177=1) as a visualization tool for interactive and reproductible publishing."
-  date: 2018-01-30
-- message: "Vega-Lite 2.1 released with support for geographic maps."
-  date: 2018-01-26
-- message: "Vega-Lite is used for [illustrations](https://makingdatavisual.github.io/figurelist.html) in \"Making Data Visual\" by Danyel Fisher and Miriah Meyer."
-  date: 2018-01-24
+- message: I pass the Ph.D. Qualification Exam! I am a Ph.D. candidate now. My PQE topic is about using AR for real-time tasks and the design of AR user interfaces. The slides can be found [here](/assets/slide/2021_pqe_slide.pdf).
+  date: 2021-08-24
+- message: My visit to the [Zhejiang Lab](https://www.zhejianglab.com/) under the supervision of [Prof. Yingcai Wu](http://www.ycwu.org/) is over. See you, friends!
+  date: 2021-07-20
+- message: Our paper *InfoColorizer Interactive Recommendation of Color Palettes for Infographics* is accepted by TVCG. The preprint version can be found [here](/assets/paper/2021_infocolorizer.png).
+  date: 2021-06-01
+- message: Our paper *Deep Colormap Extraction from Visualizations* is accepted by TVCG. The preprint version can be found [here](/assets/paper/2021_deep_colormap.png).
+  date: 2021-04-05
