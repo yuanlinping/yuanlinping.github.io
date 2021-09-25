@@ -1,10 +1,10 @@
 # Site settings
 title: Linping YUAN
 description: > # this means to ignore newlines until "baseurl:"
-   A Ph.D. Candidate at Hong Kong University of Science and Technology (HKUST). I work on augmented reality, virtual reality, data visualization, and human-computer interaction.
+   A Ph.D. Candidate at Hong Kong University of Science and Technology (HKUST). I work on augmented reality, virtual reality, human-computer interaction, and data visualization.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.domoritz.de" # the base hostname & protocol for your site
-production_url: "https://www.domoritz.de"
+url: "https://www.yuanlinping.top" # the base hostname & protocol for your site
+production_url: "https://www.yuanlinping.top"
 permalink: /blog/:year/:month/:title.html
 
 # find me

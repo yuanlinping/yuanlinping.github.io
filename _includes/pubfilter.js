@@ -1,4 +1,5 @@
 (function() {
+  // after adding thumbnail to publication.html, this .js cannot work.
   var pubElems = document.querySelectorAll(".publication");
   var yearElems = document.querySelectorAll(".year");
 
