@@ -170,32 +170,6 @@ title: CV
 </article>
 {% endfor %}
 
-
-<!-- <h2>Mentoring</h2>
-
-{% assign filtered_mentoring = site.data.mentoring | where_exp:'item','item.hidden == null' %}
-{% for mentor in filtered_mentoring %}
-  <div class="date-container">
-    <span class="date">{{ mentor.year | replace: "-", "–" }}</span>
-    <h3>{{ mentor.title }}</h3>
-    <span class="right">{{ mentor.location }}</span>
-  </div>
-  <p>
-    <span class="muted">
-      {{ mentor.description }}
-    </span>
-    {% if mentor.who %}
-      <h4>Mentored:</h4>
-      <ul>
-      {% for person in mentor.who %}
-        <li class="muted">{% include person person=person %}</li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-  </p>
-{% endfor %} -->
-
-
 <h2>Talks</h2>
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
