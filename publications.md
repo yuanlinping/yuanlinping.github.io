@@ -8,7 +8,7 @@ class: pubs
 {:.hidden}
 # Publications
 
-<div id="facets" class="hidden">
+<!-- <div id="facets" class="hidden">
   <div class="facet" id="venue_tags">
     <strong>Venue</strong>
     <ul></ul>
@@ -43,7 +43,7 @@ class: pubs
 
 <p id="clear-filters" class="hidden">
   <i class="fas fa-times-circle" aria-hidden="true"></i> Clear all filters. <span id="count_hidden">X</span> of <span id="count_total">X</span> publications are hidden by the filters.
-</p>
+</p> -->
 
 {% assign pubyears = site.publications | group_by:"year"  %}
 {% assign sorted_pubyears = pubyears | reverse %}

@@ -24,6 +24,6 @@ doi: 10.1109/TVCG.2021.3070876
 pdf: /assets/paper/2021_deep_colormap.pdf
 appendix: /assets/appendix/2021_deep_colormap_appendix.pdf
 code: https://github.com/yuanlinping/deep_colormap_extraction
-arxiv: https://arxiv.org/abs/2103.00741
+arxiv: 2103.00741
 ---
 This work presents a new approach based on deep learning to automatically extract colormaps from visualizations. After summarizing colors in an input visualization image as a Lab color histogram, we pass the histogram to a pre-trained deep neural network, which learns to predict the colormap that produces the visualization. To train the network, we create a new dataset of ∼64K visualizations that cover various data distributions, chart types, and colormaps. The network adopts an atrous spatial pyramid pooling module to capture color features at multiple scales in the input color histograms. We then classify the predicted colormap as discrete or continuous, and refine the predicted colormap based on its color histogram.

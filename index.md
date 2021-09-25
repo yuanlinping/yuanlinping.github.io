@@ -69,7 +69,7 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 
 ## Featured Publications
 
-<div class="featured-publications">
+<!-- <div class="featured-publications">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
   {% for pub in sorted_publications %}
     {% if pub.highlight %}
@@ -79,6 +79,35 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
         <i>{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}</i>.
         {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
       </a>
+    {% endif %}
+  {% endfor %}
+</div> -->
+
+<div class="featured-publications">
+  {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
+  {% for pub in sorted_publications %}
+    {% if pub.highlight%}
+      <div class="publication pubs">
+        {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}" target="_blank"><span class="pub-title">{{ pub.title }}</span>.</a>
+        {% elsif pub.pdf %}
+        <a href="{{ pub.pdf }}" target="_blank"><span class="pub-title">{{ pub.title }}</span>.</a>
+        {% endif %}
+        <div class="authors">
+          {% for author in pub.authors %}
+            {% include person.html person=author %}
+            {% unless forloop.last %}, {% endunless %}
+          {% endfor %}.
+          <br/><i>{{ pub.venue }}</i>, {{ pub.year }}.
+          {% if pub.type[0]=="Poster" %} (Poster)
+          {% elsif pub.type[0] == "Notes" %} (Notes)
+          {% elsif pub.note %} ({{ pub.note }})
+          {% endif %}
+          {% for award in pub.awards %}
+            <br/><span class="award"><i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
   {% endfor %}
 </div>

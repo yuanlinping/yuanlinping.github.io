@@ -125,14 +125,24 @@
   }
 
   .featured-publications {
-    font-size: 0.95em;
+    font-size: 1em;
     margin-bottom: 1.5em;
 
     .publication {
-      margin-bottom: 0.7em;
+      margin-bottom: 2vh;
       display: block;
-      color: $text-color;
 
+      // color: $text-color;
+      .pub-title {
+        font-weight: 500;
+      }
+      a {
+        color: $text-color;
+      }
+
+      i {
+        font-size: 1em;
+      }
       &:hover {
         text-decoration: none;
       }

@@ -83,7 +83,7 @@
 
 #clear-filters {
   color: $grey-color-dark;
-  font-weight: 500;
+  font-weight: $bold-font-weight;
   cursor: pointer;
 
   &:hover {
@@ -111,6 +111,14 @@
     margin: 0.7em 0 0.5em 0;
     border-bottom: none;
     color: $grey-color;
+  }
+
+  h1, h2, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .author_me {
+    font-weight: $base-font-weight;
   }
 
   .publication,
@@ -164,10 +172,51 @@
       }
     }
 
-    .venue,
-    .venue a {
-      color: $grey-color;
+    .poster_note {
+      font-weight: 300;
     }
+
+    // .venue,
+    // .venue a {
+    //   color: $grey-color;
+    // }
+
+    .venue {
+      color: #828282;
+      font-size: 0.9em;
+    }
+
+    a.tip {
+      // border-bottom: 1px dashed;
+      text-decoration: none;
+      position: relative;
+      color: #828282;
+      & span {
+          visibility: hidden;
+          z-index: 999;
+          background: rgba(255, 255, 255, 1);
+          left: 30px;
+          margin: 10px;
+          width: max-content;
+          height: max-content;
+          position: absolute;
+          font-size: 0.9em;
+          color: black;
+          top: 5px; //10px;
+          text-decoration: none;
+          border: #c0c0c0 0px dotted;
+          padding: 0;
+          border-radius: 5px;
+        }
+    }
+    a.tip:hover {
+        cursor: help;
+        color: black;
+        & span {
+          display: block;
+          visibility: visible;
+        }
+    }    
 
     .awards {
       margin-top: 0.1em;
@@ -195,7 +244,7 @@
     }
 
     .extra-links {
-      margin-top: 0.5em;
+      // margin-top: 0.5em;
       font-weight: 300;
       font-size: 0.9em;
 
