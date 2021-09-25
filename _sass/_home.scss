@@ -3,15 +3,6 @@
     margin-top: 0;
   }
 
-  h2 {
-    font-size: 1.5em;
-    border-bottom: none;
-  }
-
-  i {
-    font-size:20px;
-  }
-
   .columns {
     display: flex;
     flex-direction: row;
@@ -87,7 +78,7 @@
 
       .title {
         margin: 0 0 0.6em 0;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
         line-height: 1;
       }
@@ -167,6 +158,7 @@
       color: $grey-color;
       padding-right: 1em;
       text-align: right;
+      vertical-align: top;
     }
 
     ul {

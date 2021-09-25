@@ -12,15 +12,11 @@
     </div>
     {% if pub.venue %}
       <div class="venue">
-        {% if pub.venue_url %}
-          <a href="{{ pub.venue_url }}">
-        {% endif %}
-        {{ pub.venue }}<!--
         {% if pub.venue_location %}
-          --> in {{ pub.venue_location }}<!--
+          {{ pub.venue }} in {{ pub.venue_location }} {{ pub.year }}
+        {% else %}
+        {{ pub.venue }} ({{ pub.year }})
         {% endif %}
-        -->{% if pub.venue_url %}</a>{% endif %}
-        {{ pub.year }}
       </div>
     {% endif %}
 
