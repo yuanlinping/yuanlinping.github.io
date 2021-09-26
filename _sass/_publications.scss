@@ -179,6 +179,7 @@
 
     .publication-content {
       margin-bottom: 1em;
+      // display: block;
       // text-align: justify;
 
       h3 {
@@ -296,6 +297,22 @@
             text-decoration: none;
             border-bottom: 1px solid $link-color;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .pubs{ // cannot delete, or original styles cannot be overwritten by the following styles.
+    .publication {
+      display: block;
+      padding: 1rem;
+      .thumbnail {
+        margin-bottom: 5px;
+        text-align: center;
+        img {
+            width: 100%;
         }
       }
     }
