@@ -10,7 +10,7 @@ class: home
 
 I am Linping YUAN (袁林萍), a Ph.D. candidate at [HKUST VisLab](http://vis.cse.ust.hk/), at the Department of Computer Science and Engineering of the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by Prof. [Huamin Qu](http://www.huamin.org/). Before that, I obtained my bachelor's degree in Software Engineering from [Xi'an Jiaotong University (XJTU)](http://en.xjtu.edu.cn/) in 2019.
 
-My research interests are in Augmented Reality (AR), Human-Computer Interaction (HCI), and Data Visualizations. 
+My research interests include Augmented Reality (AR), Human-Computer Interaction (HCI), and Data Visualizations. 
 
 In the first two years of my Ph.D. journey, I focused on how to leverage deep learning methods to facilitate the design of data visualizations and infographics, with an emphasis on color design. I have published two first-author papers on this topic in a top journal.
 
@@ -35,7 +35,7 @@ In the first two years of my Ph.D. journey, I focused on how to leverage deep le
 
 <div class="columns" markdown="1"> 
 <div class="intro" markdown="1">
-Aiming to explore more unknowns and challenge myself, I shifted my interests to AR/VR and have been exploring the intersection of visualization, HCI, and AR/VR since 2020 summer. Currently, I am a core member of [VisLab AR/VR Team](http://vis.cse.ust.hk/groups/xr-vis/). My ongoing research projects aim to build an AR/VR-enhanced campus and enrich HKUST members' living experience with AR/VR techniques and applications.
+Aiming to explore more unknowns and challenge myself, I shifted my interests to AR/VR and have been exploring the intersection of AR/VR, HCI, and visualization since 2020 summer. Currently, I am a core member of [VisLab AR/VR Team](http://vis.cse.ust.hk/groups/xr-vis/). My ongoing research projects aim to build an AR/VR-enhanced campus and enrich HKUST members' living experience with AR/VR techniques and applications.
 </div>
 </div>
 
