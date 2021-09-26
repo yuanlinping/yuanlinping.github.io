@@ -10,14 +10,14 @@
   paper: 10.1109/TVCG.2021.3070876
   code: https://github.com/yuanlinping/deep_colormap_extraction
   image: 2021_deep_colormap.png
-  description: This work presents a new approach based on deep learning to automatically extract colormaps from visualizations. With the extracted colormaps, we have developed two applicatons, i.e., color transfer and color remapping.
+  description: This work presents a new approach based on deep learning to automatically extract colormaps from visualizations. With the extracted colormaps, we have developed two applications, i.e., color transfer and color remapping.
   highlight: 2
 
 - title: SpeechLens
   paper: 10.1109/BIGCOMP.2019.8679261
   video: https://www.youtube.com/watch?v=dtv03qEVFDM&t=1s
   image: 2019_speechlens.png
-  description: SpeechLens is an interactive visual analytics system to explore large-scale speech dataset with multiple level of details. It allows users to identify narration strategies by conducting visual analysis into the textural and acoustic information in public speeches.
+  description: SpeechLens is an interactive visual analytics system to explore large-scale speech datasets with multiple-level of details. It allows users to identify narration strategies by conducting visual analysis into the textural and acoustic information in public speeches.
   highlight: 3
 
 - title: Dancing 3D Text
