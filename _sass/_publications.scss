@@ -147,6 +147,7 @@
     display: flex;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    line-height: 1.2;
     .thumbnail {
         position: relative;
         min-width: 15vw;
@@ -183,6 +184,8 @@
       h3 {
         font-size: 1.2em;
         margin: 0em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
         font-weight: 500;
 
         max-height: 600px;
@@ -220,6 +223,7 @@
 
       .venue {
         font-weight: 300;
+        margin-bottom: 0.6em;
       }
 
       a.tip {
