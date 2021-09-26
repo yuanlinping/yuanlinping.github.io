@@ -26,12 +26,6 @@
       </p>
     {% endif %}
 
-    {% if pub.tweet %}
-      <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=domoritz&related=domoritz" class="tweet">
-        <i class="fab fa-twitter"></i> <span class="message">{{ pub.tweet }}</span>
-      </a>
-    {% endif %}
-
     {% if pub.awards %}
       <div class="awards">
         {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
