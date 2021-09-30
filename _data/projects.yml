@@ -1,20 +1,20 @@
 - title: InfoColorizer
   video: https://www.youtube.com/watch?v=FZvLt0AAIAI
-  paper: 10.1109/TVCG.2021.3085327
+  doi: 10.1109/TVCG.2021.3085327
   code: https://github.com/yuanlinping/InfoColorizer
   image: 2021_infocolorizer.png
   description: InfoColorizer is an interactive tool to facilitate color palette creation for infographics with deep learning techniques. It provides novice users with flexibility by considering users’ preferences, lowers the expertise barrier via automation, and tailors suggested palettes to the spatial layout of elements.
   highlight: 1
 
 - title: Color Extractor
-  paper: 10.1109/TVCG.2021.3070876
+  doi: 10.1109/TVCG.2021.3070876
   code: https://github.com/yuanlinping/deep_colormap_extraction
   image: 2021_deep_colormap.png
   description: This work presents a new approach based on deep learning to automatically extract colormaps from visualizations. With the extracted colormaps, we have developed two applications, i.e., color transfer and color remapping.
   highlight: 2
 
 - title: SpeechLens
-  paper: 10.1109/BIGCOMP.2019.8679261
+  doi: 10.1109/BIGCOMP.2019.8679261
   video: https://www.youtube.com/watch?v=dtv03qEVFDM&t=1s
   image: 2019_speechlens.png
   description: SpeechLens is an interactive visual analytics system to explore large-scale speech datasets with multiple-level of details. It allows users to identify narration strategies by conducting visual analysis into the textural and acoustic information in public speeches.

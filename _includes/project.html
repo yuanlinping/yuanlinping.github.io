@@ -1,8 +1,10 @@
 <div class="project">
   <span class="title">{{ project.title }}</span>
-  {% if project.url || project.code || project.article || project.paper %}
-    <a href="{{ project.url || project.code || project.article || project.paper }}" class="preview-image" style="background-image: url('{{ "/assets/project/" | append: project.image | relative_url }}')"></a>
-  {% else %}
+  {% if project.url || project.code || project.article %}
+    <a href="{{ project.url || project.code || project.article }}" class="preview-image" style="background-image: url('{{ "/assets/project/" | append: project.image | relative_url }}')"></a>
+    {%elsif project.doi %}
+    <a href="https://doi.org/{{ project.doi }}" class="preview-image" style="background-image: url('{{ "/assets/project/" | append: project.image | relative_url }}')"></a>
+    {% else %}
     <span class="preview-image" style="background-image: url('{{ "/assets/project/" | append: project.image | relative_url }}')"></span>
   {% endif %}
   <p>
@@ -22,8 +24,8 @@
     {% if project.code %}
       <a href="{{ project.code }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     {% endif %}
-    {% if project.paper %}
-      <a href="{{https://doi.org/{{ project.paper }}}}"><i class="far fa-file-pdf"></i> Paper</a>
+    {% if project.doi %}
+      <a href="https://doi.org/{{ project.doi }}"><i class="far fa-file-pdf"></i> Paper</a>
     {% endif %}
     {% if project.video %}
       <a href="{{ project.video }}"><i class="fas fa-film"></i> Video</a>
