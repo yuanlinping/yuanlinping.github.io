@@ -30,8 +30,11 @@
     {% if project.video %}
       <a href="{{ project.video }}"><i class="fas fa-film"></i> Video</a>
     {% endif %}
-    {% if project.recording %}
-      <a href="{{ project.recording }}"><i class="fas fa-video"></i> Recording</a>
+    {% if project.talk %}
+      <a href="{{ project.recording }}"><i class="fas fa-video"></i> Talk</a>
+    {% endif %}
+    {% if project.slides %}
+    <a href="{{ pub.slides }}"><i class="fas fa-window-maximize" aria-hidden="true"></i> Slides</a>
     {% endif %}
   </div>
 </div>

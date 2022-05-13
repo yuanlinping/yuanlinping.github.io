@@ -1,27 +1,38 @@
+- title: VisPIE
+  code: https://github.com/wtong2017/hackust2022-vispie
+  # demo: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EQ2H2TTvQlBMlodzKd0FdKUBlJcFo4ae8UjfD-QUH4tKiQ?e=Rzfemt
+  # the demo can be found in the url. Thus, I commented it for format consistency.
+  talk: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EezcUa0cUyhMlJMNhbJQoWcBiVzVFOkCgpTBvgUvSJwENw?e=DjHUe5
+  slides: https://hkustconnect-my.sharepoint.com/:b:/g/personal/lyuanaa_connect_ust_hk/EfjREiGBp8BAkDXTDBBILZYBmkKdMnkpmu-xxK8Bqdf11w?e=WHoU3f
+  url: https://jasonwong.vision/projects/vispie/
+  image: 2022_vispie.png
+  description: ViePIE aims to promote sustainable lifestyle with AR gamification and digital twin. We enable individuals to perceive the environmental implications of their measurable activities, immerse themselves in the climate change impacts, and empower both individuals and organizations with climate-smart choices. 
+  highlight: 1
+
 - title: InfoColorizer
   video: https://www.youtube.com/watch?v=FZvLt0AAIAI
   doi: 10.1109/TVCG.2021.3085327
   code: https://github.com/yuanlinping/InfoColorizer
   image: 2021_infocolorizer.png
+  talk: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EVuiF6oJEypChMkBxw5eLbIBpUi6clxb-8Q_jKpMs5uEsA?e=QLHlSU
   description: InfoColorizer is an interactive tool to facilitate color palette creation for infographics with deep learning techniques. It provides novice users with flexibility by considering users’ preferences, lowers the expertise barrier via automation, and tailors suggested palettes to the spatial layout of elements.
-  highlight: 1
+  highlight: 2
 
 - title: Color Extractor
   doi: 10.1109/TVCG.2021.3070876
   code: https://github.com/yuanlinping/deep_colormap_extraction
   image: 2021_deep_colormap.png
   description: This work presents a new approach based on deep learning to automatically extract colormaps from visualizations. With the extracted colormaps, we have developed two applications, i.e., color transfer and color remapping.
-  highlight: 2
+  highlight: 3
 
 - title: SpeechLens
   doi: 10.1109/BIGCOMP.2019.8679261
   video: https://www.youtube.com/watch?v=dtv03qEVFDM&t=1s
   image: 2019_speechlens.png
   description: SpeechLens is an interactive visual analytics system to explore large-scale speech datasets with multiple-level of details. It allows users to identify narration strategies by conducting visual analysis into the textural and acoustic information in public speeches.
-  highlight: 3
 
 - title: Dancing 3D Text
-  video: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EfiULwqptuZAvkZkUzqTN9kBPAe4iDcjqIyNad8pEpYm6w?e=sfHLHT
+  video: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EfiULwqptuZAvkZkUzqTN9kBw7nL9wnGfrRR9AiSnOs6vw?e=z7xMkD
   image: 2019_3dtext.gif
   description: We created a type of dancing 3D text that could be displayed in different environments with various visual effects based on physically based rendering. We also implemented two kinds of animations in which a text mesh deforms to a sphere and a spiral, respectively.
 
