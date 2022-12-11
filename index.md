@@ -52,21 +52,6 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 </div>
 
 
-## Featured Projects
-
-<div class="featured-projects">
-  {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
-  {% for project in sorted_projects %}
-    {% if project.highlight %}
-      {% include project.html project=project %}
-    {% endif %}
-  {% endfor %}
-</div>
-<a href="{{ "/projects/" | relative_url }}" class="button">
-  <i class="fas fa-chevron-circle-right"></i>
-  Show More Projects
-</a>
-
 ## Featured Publications
 
 <!-- style 1: with border -->
@@ -113,4 +98,20 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 <a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
   Show All Publications
+</a>
+
+
+## Featured Projects
+
+<div class="featured-projects">
+  {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
+  {% for project in sorted_projects %}
+    {% if project.highlight %}
+      {% include project.html project=project %}
+    {% endif %}
+  {% endfor %}
+</div>
+<a href="{{ "/projects/" | relative_url }}" class="button">
+  <i class="fas fa-chevron-circle-right"></i>
+  Show More Projects
 </a>
