@@ -1,6 +1,8 @@
 - type: Programming Languages
   value: Python, C++, Java, MATLAB, HTML/CSS, JavaScript
-- type: Deep Learning Frameworks
-  value: TensorFlow, PYTorch
+- type: AR/VR Development
+  value: Unity
 - type: Web Development
   value: D3.js, Vue.js, MongoDB
+- type: Deep Learning Frameworks
+  value: TensorFlow, PYTorch
