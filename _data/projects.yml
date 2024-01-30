@@ -8,13 +8,20 @@
   description: ViePIE aims to promote sustainable lifestyle with AR gamification and digital twin. We enable individuals to perceive the environmental implications of their measurable activities, immerse themselves in the climate change impacts, and empower both individuals and organizations with climate-smart choices. 
   highlight: 1
 
+- title: AR Ricci Map
+  image: 2023_ARRicciMap.png
+  demo: https://library.hkust.edu.hk/china-in-maps/about-us
+  description: AR Ricci Map is an AR mobile app that blendes digital maps with a physcial map. It shows different versions of ancient maps and transforms 2D maps into 3D globes, which provides exhibition visitors a new and engaging way to understand these historical maps.
+  highlight: 2
+
 - title: Immersive Walk
   image: 2022_immersivewalk.png
   demo: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EQOO18EgZ2ZFvrQ-ni7F6U0BjycEJReyRPT0lf05Zi96Qw?e=rZ2wY8
   description: Immersive Walk is an app that celebrates the HKUST 30th Anniversary by allowing students to go through the history of HKUST 30 years history in Augmented Reality. This is one step towards our goal of building AR/VR-enhanced HKUST campuses and enriching students’ and staff’s living experience. 
-  highlight: 2
+  highlight: 3
 
 # - title: Staff Shifting and Scheduling
+
 
 - title: InfoColorizer
   video: https://www.youtube.com/watch?v=FZvLt0AAIAI
@@ -23,7 +30,6 @@
   image: 2021_infocolorizer.png
   talk: https://www.youtube.com/watch?v=z23Zq5kZruE
   description: InfoColorizer is an interactive tool to facilitate color palette creation for infographics with deep learning techniques. It provides novice users with flexibility by considering users’ preferences, lowers the expertise barrier via automation, and tailors suggested palettes to the spatial layout of elements.
-  highlight: 3
 
 - title: Color Extractor
   doi: 10.1109/TVCG.2021.3070876

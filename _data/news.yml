@@ -1,20 +1,28 @@
+- message: Our paper [Generating Virtual Reality Stroke Gesture Data from Out-of-Distribution Desktop Stroke Gesture Data](https://github.com/yuanlinping/VRStrokeOOD) has been accepted by IEEE VR 2024!  It is an important milestone in my journey to becoming an independent researcher.
+  date: 2024-01-26
+- message: I am very excited to start a new journey at [Intelligent Interactive Systems Group](https://www-edc.eng.cam.ac.uk/research/intelligent-interactive-systems) in University of Cambridge as a visiting student, supervised by [Prof. Per Ola Kristensson](https://pokristensson.com/).
+  date: 2024-01-01
+- message: The exhibition [China in Maps - 500 Years of Evolving Images](https://library.hkust.edu.hk/china-in-maps/about-us) has been launched in HKUST! Glad to be an AR developer in this amazing project.
+  date: 2023-09-28
+- message: VR data story is a promising and interesting storytelling form. Wanting to know how to design an effective and interactive VR story? Check our recent IJHCS paper [From Reader to Experiencer](/assets/paper/2023_VRDataStory.pdf)!
+  date: 2023-08-01
 - message: Our research proposal [Augmenting Situated Visualizations with Tangible User Interfaces](https://cerg1.ugc.edu.hk/cergprod/scrrm00542.jsp?proj_id=16214623&old_proj_id=null&proj_title=&isname=&ioname=&institution=&subject=&pages=1&year=2023&theSubmit=16214623)  was awarded over 1M HKD by the General Research Fund, the Research Grants Council (RGC) of Hong Kong.
   date: 2023-07-01
-- message: I was awarded a [HKUST RedBird Academic Excellence Award](https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees#:~:text=RedBird%20PhD%20Award%20Program,academic%20performance%20and%20research%20capacity.&text=the%20following%20years-,The%20award%20is%20renewable%20in%20subsequent,subject%20to%20continual%20excellent%20performance.).
+- message: I was awarded a [HKUST RedBird Academic Excellence Award](https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees#:~:text=RedBird%20PhD%20Award%20Program,academic%20performance%20and%20research%20capacity.&text=the%20following%20years-,The%20award%20is%20renewable%20in%20subsequent,subject%20to%20continual%20excellent%20performance.) for the second time.
   date: 2023-06-15
 - message: Our paper [Exploring Interactions with Printed Data Visualizations in Augmented Reality VIS](https://ieeexplore.ieee.org/document/9904446) was awarded a 2022 Honorable Mention Award and invited to present in [IEEE VIS 2022](https://ieeevis.org/year/2022/info/awards/best-paper-awards) and [SIGGRAPH Asia 2022](https://sa2022.siggraph.org/).
   date: 2022-12-08
-- message: I was awarded a 2022 [Style3D Graduate Fellowship](https://cse.hkust.edu.hk/News/Style3D_Fellowship2022/).
+- message: I was awarded a 2022 [Style3D Graduate Fellowship](https://cse.hkust.edu.hk/News/Style3D_Fellowship2022/). Thanks for the generous support to my research!
   date: 2022-08-12
 - message: I was awarded a [HKUST RedBird Academic Excellence Award](https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees#:~:text=RedBird%20PhD%20Award%20Program,academic%20performance%20and%20research%20capacity.&text=the%20following%20years-,The%20award%20is%20renewable%20in%20subsequent,subject%20to%20continual%20excellent%20performance.).
   date: 2022-05-31
 - message: We won the Deloitte ESG Innovation Award in HackUST 2022 (Top prize under the ESG theme). Further details can be found [here](https://jasonwong.vision/projects/vispie/).
   date: 2022-04-28
-- message: I pass the Ph.D. Qualification Exam! I am a Ph.D. candidate now. My PQE topic is about using AR for real-time tasks and the design of AR user interfaces. The slides can be found [here](/assets/slide/2021_pqe_slide.pdf).
-  date: 2021-08-24
-- message: My visit to the [Zhejiang Lab](https://www.zhejianglab.com/) under the supervision of [Prof. Yingcai Wu](http://www.ycwu.org/) is over. See you, friends!
-  date: 2021-07-20
-- message: Our paper *InfoColorizer Interactive Recommendation of Color Palettes for Infographics* is accepted by TVCG. The preprint version can be found [here](/assets/paper/2021_infocolorizer.pdf).
-  date: 2021-06-01
-- message: Our paper *Deep Colormap Extraction from Visualizations* is accepted by TVCG. The preprint version can be found [here](/assets/paper/2021_deep_colormap.pdf).
-  date: 2021-04-05
+# - message: I pass the Ph.D. Qualification Exam! I am a Ph.D. candidate now. My PQE topic is about using AR for real-time tasks and the design of AR user interfaces. The slides can be found [here](/assets/slide/2021_pqe_slide.pdf).
+#   date: 2021-08-24
+# - message: My visit to the [Zhejiang Lab](https://www.zhejianglab.com/) under the supervision of [Prof. Yingcai Wu](http://www.ycwu.org/) is over. See you, friends!
+#   date: 2021-07-20
+# - message: Our paper *InfoColorizer Interactive Recommendation of Color Palettes for Infographics* is accepted by TVCG. The preprint version can be found [here](/assets/paper/2021_infocolorizer.pdf).
+#   date: 2021-06-01
+# - message: Our paper *Deep Colormap Extraction from Visualizations* is accepted by TVCG. The preprint version can be found [here](/assets/paper/2021_deep_colormap.pdf).
+#   date: 2021-04-05

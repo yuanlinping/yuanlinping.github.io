@@ -1,0 +1,30 @@
+---
+layout: publication
+title: "Generating Virtual Reality Stroke Gesture Data from Out-of-Distribution Desktop Stroke Gesture Data"
+authors:
+  - Linping Yuan
+  - Boyu Li
+  - Jindong Wang
+  - Huamin Qu
+  - Wei Zeng
+year: 2024
+venue: IEEE Conference on Virtual Reality and 3D User Interfaces
+venue_tags:
+  - IEEEVR
+type:
+  - Conference
+tags:
+  - Virtual Reality
+  - AI for X
+highlight: true
+image: /assets/paper_teaser/2024_VRStrokeOOD.png
+<!-- doi: 10.1109/TVCG.2021.3085327 -->
+pdf: /assets/paper/2024_VRStrokeOOD.pdf
+appendix: /assets/appendix/2024_VRStrokOOD_appendix.pdf
+<!-- demo: https://www.youtube.com/watch?v=FZvLt0AAIAI -->
+<!-- arxiv: 2102.02041 -->
+<!-- slides: /assets/slide/2021_infocolorizer_slide.pdf -->
+<!-- talk: https://www.youtube.com/watch?v=z23Zq5kZruE -->
+code: https://github.com/yuanlinping/VRStrokeOOD
+---
+This paper exploits ubiquitous desktop interaction data as an input source for generating virtual reality (VR) interaction data, which can benefit tasks like user behavior analysis and experience enhancement. Time-varying stroke gestures are selected as the primary focus because of their prevalence across various applications and their diverse patterns. The commonalities (e.g., features like velocity and curvature) between desktop and VR strokes allow the generation of additional dimensions (e.g., z vectors) in VR strokes. However, distribution shifts exist between different interaction environments (i.e., desktop vs.VR), and within the same interaction environment for different strokes by various users, making it challenging to build models capable of generalizing to unseen distributions. To address the challenges, we formulate the problem of generating VR strokes from desktop strokes as a conditional time series generation problem, aiming to learn representations that are capable of handling out-of-distribution data. We propose a novel architecture based on conditional generative adversarial networks, with the generator encompassing three steps: discretizing the output space, characterizing latent distributions, and learning conditional domain-invariant representations. We evaluate the effectiveness of our methods by comparing them with state-of-the-art time series generation models and conducting ablation studies. We further illustrate the applicability of the enriched VR datasets through two applications: VR stroke classification and stroke prediction.
