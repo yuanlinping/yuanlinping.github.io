@@ -8,7 +8,9 @@ class: home
 
 <div class="intro" markdown="1">
 
-I am Linping YUAN (袁林萍), a Ph.D. candidate at [HKUST VisLab](http://vis.cse.ust.hk/), at the Department of Computer Science and Engineering of the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by Prof. [Huamin Qu](http://www.huamin.org/). Before that, I obtained my bachelor's degree in Software Engineering from [Xi'an Jiaotong University (XJTU)](http://en.xjtu.edu.cn/) in 2019.
+I am Linping YUAN (袁林萍), currently a research assistant professor at the [Department of Computer Science and Engineering (CSE)](https://hkust.edu.hk/), [The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/). I received my Ph.D. at [HKUST VisLab](http://vis.cse.ust.hk/) at CSE of HKUST, supervised by Prof. [Huamin Qu](http://www.huamin.org/). Before that, I obtained my bachelor's degree in Software Engineering from [Xi'an Jiaotong University (XJTU)](http://en.xjtu.edu.cn/) in 2019.
+
+<!-- a Ph.D. candidate at [HKUST VisLab](http://vis.cse.ust.hk/), at the Department of Computer Science and Engineering of the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by Prof. [Huamin Qu](http://www.huamin.org/). Before that, I obtained my bachelor's degree in Software Engineering from [Xi'an Jiaotong University (XJTU)](http://en.xjtu.edu.cn/) in 2019. -->
 
 <!-- My research interests include Augmented Reality (AR), Human-Computer Interaction (HCI), and Data Visualizations. 
 
@@ -16,13 +18,14 @@ In the first two years of my Ph.D. journey, I focused on how to leverage deep le
 
 My research interests lie in the intersection of virtual/augmented reality (VR/AR), human-computer interaction (HCI), and data visualization (VIS). I design and develop algorithms, interactive tools, and visual analytic systems to facilitate the creation of various artifacts, including 2D visualizations and infographics, AR data videos, and VR animated stories. Specifically, my research 1) provides computational creativity support by mining design practices from large datasets with deep learning techniques, and 2) adopts data-driven approach to facilitate creators understand and improve the way audience interact with their artifacts.
 
+Welcome to drop me an email if you are interested in my research or want to explore research collaboration :D
 </div>
 
 <div class="me" markdown="1">
 <picture>
-  <source srcset='/images/linping_profile.png' type='image/png' />
+  <source srcset='/images/linping_profile.jpg' type='image/jpg' />
   <img
-    src='/images/linping_profile.png'
+    src='/images/linping_profile.jpg'
     alt='Linping YUAN'>
 </picture>
 
