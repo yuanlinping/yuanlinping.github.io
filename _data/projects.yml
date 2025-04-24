@@ -27,18 +27,18 @@
 
 # - title: Staff Shifting and Scheduling
 
-# - title: SpeechLens
-#   doi: 10.1109/BIGCOMP.2019.8679261
-#   video: https://www.youtube.com/watch?v=dtv03qEVFDM&t=1s
-#   image: 2019_speechlens.png
-#   description: SpeechLens is an interactive visual analytics system to explore large-scale speech datasets with multiple-level of details. It allows users to identify narration strategies by conducting visual analysis into the textural and acoustic information in public speeches.
+- title: SpeechLens
+  doi: 10.1109/BIGCOMP.2019.8679261
+  video: https://www.youtube.com/watch?v=dtv03qEVFDM&t=1s
+  image: 2019_speechlens.png
+  description: SpeechLens is an interactive visual analytics system to explore large-scale speech datasets with multiple-level of details. It allows users to identify narration strategies by conducting visual analysis into the textural and acoustic information in public speeches.
 
-# - title: Dancing 3D Text
-#   video: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EfiULwqptuZAvkZkUzqTN9kB-NuQHM9bw-mz87hQvXdh_Q?e=EVsXs5
-#   image: 2019_3dtext.gif
-#   description: We created a type of dancing 3D text that could be displayed in different environments with various visual effects based on physically based rendering. We also implemented two kinds of animations in which a text mesh deforms to a sphere and a spiral, respectively.
+- title: Dancing 3D Text
+  video: https://hkustconnect-my.sharepoint.com/:v:/g/personal/lyuanaa_connect_ust_hk/EfiULwqptuZAvkZkUzqTN9kB-NuQHM9bw-mz87hQvXdh_Q?e=EVsXs5
+  image: 2019_3dtext.gif
+  description: We created a type of dancing 3D text that could be displayed in different environments with various visual effects based on physically based rendering. We also implemented two kinds of animations in which a text mesh deforms to a sphere and a spiral, respectively.
 
-- title: Ordering System
-  # article: https://blog.csdn.net/qq_35153254/category_7224290.html?spm=1001.2014.3001.5482
-  description: I developed an ordering system for canteens in C++ with the framework Qt during my internship in a startup. The system involved many modules such as database, network, Bluetooth, and printer. This system is now being used in many school canteens.
-  image: 2016_qtordering.png
+# - title: Ordering System
+#   # article: https://blog.csdn.net/qq_35153254/category_7224290.html?spm=1001.2014.3001.5482
+#   description: I developed an ordering system for canteens in C++ with the framework Qt during my internship in a startup. The system involved many modules such as database, network, Bluetooth, and printer. This system is now being used in many school canteens.
+#   image: 2016_qtordering.png
