@@ -34,6 +34,7 @@ Welcome to drop me an email if you are interested in my research or want to expl
 {:.no-list}
 <!-- find icons here: https://www.angularjswiki.com/fontawesome/ -->
 * <i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}"> {{ site.email }}</a>
+* <i class="fa fa-file"></i> <a href="assets/others/resume.pdf"> Resume </a>
 * <i class="fab fa-github"></i> <a href="{{site.github_url}}"> GitHub</a>
 * <i class="fab fa-google"></i> <a href="{{site.google_scholar_url}}">Google Scholar</a>
 </div>

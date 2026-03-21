@@ -1,0 +1,26 @@
+---
+layout: publication
+title: "SketchDynamics: Exploring Free-Form Sketches for Dynamic Intent Expression in Animation Generation"
+authors:
+  - Boyu Li
+  - Linping Yuan
+  - Zeyu Wang
+  - Hongbo Fu
+year: 2026
+venue: Proceedings of the CHI Conference on Human Factors in Computing Systems (In press)
+venue_tags:
+  - ACMCHI
+type:
+  - Conference
+tags:
+  - Mixed Reality
+  - Animation
+highlight: false
+# doi: 10.1145/3706598.3714257
+image: /assets/paper_teaser/2026_sketchdynamic.gif
+pdf: /assets/paper/2026_SketchDynamics.pdf
+# <!-- demo: https://www.youtube.com/watch?v=FZvLt0AAIAI -->
+arxiv: 2601.20622
+# <!-- slides: /assets/slide/2021_infocolorizer_slide.pdf -->
+# <!-- talk: https://www.youtube.com/watch?v=z23Zq5kZruE -->
+---
